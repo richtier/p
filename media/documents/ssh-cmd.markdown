@@ -60,36 +60,3 @@ t1.9euelZqOlI2VjZTPi4nKi86UjpSZl-3rnpWaz83MlMrLicaSy52alZnHjpTl9PcLblh_-e9PdRyY3
 export IAM_TOKEN=`t1.9euelZqOlI2VjZTPi4nKi86UjpSZl-3rnpWaz83MlMrLicaSy52alZnHjpTl9PcLblh_-e9PdRyY3fT3SxxWf_nvT3UcmA.t33opTcwWTzeZ9TOQmsKT4rewD4_-ke2GvxKUDitG_nIv3OTdLjEtmy4Qw3Cj7J8XSdjqa_q9JxcObqDzPOnCA`
 curl -H "Authorization: Bearer ${IAM_TOKEN}" \
 https://resource-manager.api.cloud.yandex.net/resource-manager/v1/clouds
-
-
-        git config --global user.email "easy.quest@yandex.ru"
-        git config --global user.name "Easy Quest"
-
-        echo "# Project" >> README.md
-        git init
-        git add README.md
-        git commit -m "first commit"
-        git branch -M main
-        git remote add origin git@github.com:zig-i2p/Project.git
-        git push -u origin main
-
-
-
-    ssh-keygen -t ed25519 -C "easy.quest@yandex.ru"
-    eval "$(ssh-agent -s)"
-    ssh-add ~/.ssh/id_ed25519
-    xclip -selection clipboard < ~/.ssh/id_ed25519.pub
-    ssh -T -p 443 git@ssh.github.com
-
-
-    sh <(curl -q https://platform.activestate.com/dl/cli/install.sh) --activate-default zig-i2p/ActivePython-3.6
-
-
-    https://yds.yandexcloud.net/doorman/b1glav8bhrgvir8gfjqv/8ca7fb06-c2b5-4e6b-b42d-b48572366f7a/00d1ec87-edaa-489a-b265-2c13b1ce8c6b
-
-
-ID: 1372f04a048442188537486e3404669e
-Пароль: 6bc86345da5f40a3aad431d4aba20fc9
-Callback URL: yandexta://zzzz.site/
-Время жизни токена: Не менее, чем 7 дней
-Дата создания: 21.01.2021
