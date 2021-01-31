@@ -1,5 +1,8 @@
 {
   "cSpell.words": [
     "runserver"
-  ]
+  ],
+  "git.autofetch": true,
+  "git.terminalAuthentication": true,
+  "github.gitAuthentication": true
 }
