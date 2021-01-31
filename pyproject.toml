@@ -4,4 +4,4 @@
 //disable = ["redundant-settings"]
 //disable = ["redundant-settings", "missing-hsts-subdomain"]
 //disable = ["all"]
-//enable = ["redundant-settings", "missing-hsts-subdomain"]
+enable = ["redundant-settings", "missing-hsts-subdomain"]
